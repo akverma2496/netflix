@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleLogout = async(e) => {
     try{
       await logOut();
-      navigate('/');
+      navigate('/login');
     }catch(error){
       console.log(error);
     }
