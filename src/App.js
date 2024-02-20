@@ -9,9 +9,10 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import MovieDetail from "./pages/MovieDetail";
 
 function App() {
+
   return (
     <>
-    <div className="App">
+    <div className="App" onClick={alert("Development is still on. SignIn / SignUp feature has been completed. You can save your shows into your account using heart icon")}>
       <AuthContextProvider>
         <Navbar />
         <Routes>
